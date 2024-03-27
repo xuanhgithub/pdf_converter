@@ -23,7 +23,7 @@ POST http://localhost:8080/api/pdf/{filename}
 
 
 ### Randnotiz
-Zunächst wurde Apache PDFBox verwendet, danach wurde aber zu Apache POI und iText umgestiegen.
+Zunächst wurde Apache PDFBox verwendet, danach wurde aber zu Apache POI und iText umgestiegen. Beide Ansätze wurden zunächst mal im Code gelassen.
 
 Die folgende Funktion verwendet Apache PDFBox zur PDF-Erstellung. Sie erstellt ein neues PDF-Dokument und fügt manuell Texte aus den DOCX-Absätzen hinzu.
 ```python
